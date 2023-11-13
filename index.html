@@ -8,7 +8,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-135109291-1');
     </script>
 
@@ -21,9 +20,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <link href="/dist/output.css" rel="stylesheet">
     <link href="./css/jquery-ui.min.css" rel="stylesheet">
-    <link href="./css/hamburgers.css" rel="stylesheet">
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/font.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/aos.css">
@@ -40,100 +38,227 @@
 
 
 </head>
-<div class="loading"></div>
-<body class="content home">
-    
-    <div class="header">
-        <button type="button" class="btn btn-lightmode" onclick="window.location.href='./page/about.html'">Resume<div
-                class="btn-icon"></div></button>
-    </div>
-    <div class="tagline" data-aos="fade-up">
-        <div><img style="width: 280px;margin-top: -24px;" src="./img/homepage/profile.svg"></div>
-        <div class="tagline-right">
-            <h2 style="color:var(--primary)">Hi, this is Jiaojiao. I design products that</h2>
-            <div class="slideupSection">
-                <div class="slide-texts">
-                    <p class="animate-next display2">
-                        <span><img src="./img/homepage/Create.png"></img>compelling experiences</span>
-                        <span><img src="./img/homepage/Shape.png"></img>complex ideas</span>
-                        <span><img src="./img/homepage/Inspire.png"></img>innovations</span>
-                    </p>
-                </div>
-            </div>
-            <h2 style="color:var(--primary); ">Currently designing trading tools <div class="link">@Goldman Sachs</div>
-            </h2>
+<!-- Image and text -->
+
+<body class="content">
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="#">
+            <img src="/img/CallMeLogo.svg" width="172px" class="d-inline-block align-top" alt="">
+
+        </a>
+    </nav>
+
+
+    <div class="section banner d-flex flex-row">
+        <div class="p-2 d-flex flex-column" style="gap:24px;flex:1">
+            <div class="display1 white">English Speaking has Never been Easier</div>
+            <p class="white">Practice is the key to mastering English speaking.<br>With CallMe, you can
+                speak with our advanced AI tutors and receive instant feedback at your own pace and comfort.
+            </p>
         </div>
+
+        <div class="p-2" style="flex:1">
+            <img src="/img/Splash.png" class="d-inline-block align-top" alt="">
+        </div>
+
     </div>
 
 
-    <div class="container-fluid add-next">
-        <div class="card-parent" style="background-color: var(--purple)" onclick="window.location.href='/interop.html'">
-            <div class="card-leftChild">
-                <div class="card-title">
-                    <h1>Marquee Trading</h1>
-                    <br>
-                    <p class="body-large">Make every second count in rapid markets. </p>
-                </div>
+    <div class="section" data-aos="fade-up" data-aos-duration="300">
+
+        <div class="card-parent d-flex flex-row" style="background-color: var(--base00);align-items: center;">
+
+            <div class="p-2 d-flex flex-column" style="gap:24px;flex:1">
+                <h1>IELTS Mock Tests</h1>
+                <p>CallMe stands out as the only app in the market offering an IELTS preparation experience that's
+                    remarkably close to the real thing. We're not just simulating the test; we're redefining how you
+                    practice for it.
+
+                </p>
+
             </div>
-            <div class="card-rightChild">
+
+            <div class="p-2 card-rightChild" style="flex:1">
                 <div class="horizontalOval"></div>
-                <div class="card-img"><img src="./img/homepage/Marquee.png"></div>
+
+                <div class="card-img"><img src="./img/MockTest.png"></div>
 
             </div>
         </div>
 
-        <div class="card-parent" style="background-color: var(--wasabi);"
-            onclick="window.location.href='./page/credit.html'">
-            <div class="card-leftChild">
-                <div class="card-title">
-                    <h1>Reinvent Lending</h1>
-                    <br>
-                    <p class="body-large">Close more loans at ease. </p>
-                </div>
+    </div>
 
 
+    <div class="section " data-aos="fade-up" data-aos-duration="300">
+
+        <div class="card-parent d-flex flex-row" style="background-color: var(--base00);align-items: center;">
+
+            <div class="p-2 d-flex flex-column" style="gap:24px;flex:1">
+                <h1>Rich Feedback to Enhance your Speaking</h1>
+                <p>Our AI pinpoints grammar, enriches vocabulary, and improves idea organization, offering a swift,
+                    comprehensive guide to advancing your speaking skills.</p>
 
             </div>
-            <div class="card-rightChild">
+
+            <div class="p-2 card-rightChild d-flex" style="flex:1">
                 <div class="circle"></div>
-                <div class="card-img"><img src="./img/homepage/credit2.png"></div>
+                <div class="card-img"><img src="./img/Feedback.png"></div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="section" data-aos="fade-up" data-aos-duration="300">
+
+        <div class="card-parent d-flex flex-column" style="background-color: var(--base00);gap:32px">
+
+            <div class="p-2 d-flex flex-column" style="gap:24px;flex:1">
+                <h1>AI Tutors Tailored to your Learning Style</h1>
+                <p>Whether you're aiming for IELTS success, seeking to sharpen your professional English, or just
+                    looking for a casual chat, our AI tutors are ready to assist you anytime.</p>
 
             </div>
 
+            <div class="p-2 Carousel">
+                <div class="TutorList">
+                    <div class="TutorCard">
+                        <div class="TutorHeader">
+                            <div class="TutorProfile">
+                                <img src="/img/Wendy.png" class="d-inline-block align-top" alt="" style="width: 92px;">
 
-        </div>
-        <div class="card-parent" style="background-color: var(--babyblue)"
-            onclick="window.location.href='./page/capstone.html'">
-            <div class="card-leftChild">
-                <div class="card-title">
-                    <h1>Student Dashboard</h1>
-                    <br>
-                    <p class="body-large">Transform student data into visual stories.</p>
+                            </div>
+                            <div class="TutorName">
+                                <h3>Wendy</h3>
+                                <p>IELTS Tutor</p>
+
+                            </div>
+                        </div>
+                        <div class="TutorContent  p-small">
+                            Hey there! I'm Wendy, your specialist in acing the IELTS Speaking test. My world
+                            revolves around perfecting pronunciation, fluency, and confidence in English speaking. Are
+                            you ready to learn some insider tips or jump into a speaking practice session?
+                            <div class="exampleSentence">
+                                “How can I score higher?”
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="TutorCard">
+                        <div class="TutorHeader">
+                            <div class="TutorProfile">
+                                <img src="/img/Max.png" class="d-inline-block align-top" alt="" style="width: 92px;">
+
+                            </div>
+                            <div class="TutorName">
+                                <h3>Max</h3>
+                                <p>Word Master</p>
+
+                            </div>
+                        </div>
+                        <div class="TutorContent  p-small">
+                            Hey! 👋 I'm Max, your partner in mastering English vocabulary. My passion lies in the world
+                            of
+                            words: their origins, their nuances, and their applications.
+                            Want to kickstart our journey? Simply ask something like, "What does serendipity mean?"
+                            <div class="exampleSentence">
+                                “What does ‘serendipity’ mean?”
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="TutorCard">
+                        <div class="TutorHeader">
+                            <div class="TutorProfile">
+                                <img src="/img/James.png" class="d-inline-block align-top" alt="" style="width: 92px;">
+
+                            </div>
+                            <div class="TutorName">
+                                <h3>James</h3>
+                                <p>Toefl Tutor</p>
+
+                            </div>
+                        </div>
+                        <div class="TutorContent p-small">
+                            Hi, I'm James, your dedicated TOEFL Speaking coach. With a passion for language and a knack
+                            for effective teaching, I'm here to guide you through mastering the TOEFL Speaking
+                            section. Whether it's honing your pronunciation or structuring responses, I've got the tips
+                            to help elevate your score. Ready to start?
+
+
+                        </div>
+
+                    </div>
+                    <div class="TutorCard">
+                        <div class="TutorHeader">
+                            <div class="TutorProfile">
+                                <img src="/img/Alice.png" class="d-inline-block align-top" alt="" style="width: 92px;">
+
+                            </div>
+                            <div class="TutorName">
+                                <h3>Alice</h3>
+                                <p>Chat Buddy</p>
+
+                            </div>
+                        </div>
+                        <div class="TutorContent  p-small">
+                            Hey there! I am Alice, here to make your journey with English enjoyable.We'll talk about
+                            everyday stuff, from TV shows to your hobbies, improving your language skills along the way.
+                            <br> The goal here isn't perfection, it's progress.
+                            <br>Ready to dive in? Let's get chatting 😀!
+
+
+                        </div>
+
+                    </div>
+
+                    <div class="TutorCard">
+                        <div class="TutorHeader">
+                            <div class="TutorProfile">
+                                <img src="/img/Taylor.png" class="d-inline-block align-top" alt="" style="width: 92px;">
+
+                            </div>
+                            <div class="TutorName">
+                                <h3>Taylor</h3>
+                                <p>Career Coach</p>
+
+                            </div>
+                        </div>
+                        <div class="TutorContent p-small">
+                            Hey, I'm Taylor, your go-to career coach. Whether you’re
+                            <div class="exampleSentence">
+                                Navigating a job transition
+                            </div>
+                            <div class="exampleSentence">
+                                Climbing the corporate ladder
+                            </div>
+                            <div class="exampleSentence">
+                                Dreaming big in entrepreneurship
+                            </div>
+                            we’re in this together.
+                            So, what's on your mind today?
+
+                        </div>
+
+                    </div>
+
                 </div>
 
             </div>
-            <div class="card-rightChild">
-                <div class="diamond"></div>
-                <div class="card-img" style="border-radius: 24px;"><img class="dropshadow"
-                        style="border-radius: 12px;width:70%;" src="./img/homepage/capstone.gif"></div>
-
-            </div>
-
-
         </div>
-        <!-- <div> As a product designer, I find joy in crafting simple and elegant solutions to empower people. Coming from a blend of
-                technical and design background, my analytical mindset allows me to examine the underlying
-                    problems and establish patterns in complex environments. Past experiences have also brought me
-                    expertise in the world of FinTech, EdTech, Data Visualizations and so many others.  
-            </div> -->
 
-        <script src="./js/animateText.js" type="text/javascript"></script>
-
-        <script src="./js/loading.js" type="text/javascript"></script>
+    </div>
 
 
-        <footer class="page-footer">
-        </footer>
+
+    <script src="./js/animateText.js" type="text/javascript"></script>
+
+
+    <footer class="section page-footer">
+    </footer>
 
 
 
